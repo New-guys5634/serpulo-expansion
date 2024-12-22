@@ -18,18 +18,22 @@ name: serpulo-mech-unit-a-3-wep
   top: false
   x: 0
   y: 0
-  shootY: 3
-  shootX: 6
+  shootY: 0
+  shootX: 0
   maxRange: 185
   mirror: true
   rotate: false
   shootCone: 10
   shootSound: bolt
   inaccuracy: 3
-  reload: 40
+  reload: 70
   targetInterval: 5
   targetSwitchInterval: 10
   cooldownTime: 5
+  shoot: {
+  shots: 12
+  shotDelay: 2
+  }
   bullet: {
   type: PointLaserBulletType
   color: f1f1f1
