@@ -1,0 +1,25 @@
+name: extra mech construction 
+description: constructs mechs 
+type: UnitFactory
+category: units
+size: 3
+configurable: true
+plans: [
+  {
+    unit: serpulo-mech-unit-a-1
+    time: 1300
+    requirements: [
+    copper/15
+    silicon/25
+    sand/40
+    ]
+}
+]
+requirements: [
+silicon/85
+lead/160
+copper/250
+]
+research: {
+  parent: ground-factory
+}
