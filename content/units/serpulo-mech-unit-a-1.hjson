@@ -8,8 +8,15 @@ hitSize: 8
 speed: .8
 rotateSpeed: 4
 accel: 0.70
-itemCapacity: 5
 outlineColor: 000000FF
+commands: [move, mine, repair, rebuild, assist]
+mineItems: []
+mineFloor: true
+mineWalls: true
+mineTier: 1
+mineSpeed: 5.80
+buildSpeed: 0.5
+itemCapacity: 25
 canBoost: true
 boostMultiplier: 1.5
 engines: [
@@ -58,6 +65,8 @@ weapons: [
     lifetime: 1
     backColor: BFECFFFF
     frontColor: BFECFFFF
+   healPercent: 2
+   collidesTeam: true
 }
 }
 }
