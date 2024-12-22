@@ -1,6 +1,6 @@
 name: spleech
 description: imagine a laser sniper at your face
-type: mech
+type: legs
 mechLegColor: 1f1f1f
 health: 155
 armor: 1
@@ -11,6 +11,12 @@ accel: 0.15
 mechSideSway: 0.25
 itemCapacity: 15
 outlineColor: 1f1f1f
+legCount: 4
+legLength: 12
+legForwardScl: 0.4
+legMoveSpace: 1
+hovering: true
+groundLayer: 72
 weapons: [
  {
 name: serpulo-mech-unit-a-3-wep
