@@ -37,8 +37,6 @@ name: serpulo-mech-unit-a-3-wep
   bullet: {
   type: PointLaserBulletType
   color: f1f1f1
-  maxRange: 185
-  maxRange: 240
   length: 150
   width: 10
   damage: 3
