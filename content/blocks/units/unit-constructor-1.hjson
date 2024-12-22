@@ -14,6 +14,15 @@ plans: [
     sand/40
     ]
 }
+{
+    unit: serpulo-mech-unit-a-2
+    time: 1000
+    requirements: [
+    lead/45
+    silicon/15
+    spore-pod/25
+  ]
+}
 ]
 requirements: [
 silicon/85
