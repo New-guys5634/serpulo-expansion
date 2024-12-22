@@ -1,0 +1,64 @@
+name: lighting 
+description: lighting fires lighting type bullets 
+type: mech
+mechLegColor: 1f1f1f
+health: 315
+armor: 1
+hitSize: 8
+speed: .8
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 5
+outlineColor: 000000FF
+canBoost: true
+boostMultiplier: 1.5
+engines: [
+  {
+    x: 0
+    y: -6
+    radius: 2
+  }
+]
+weapons: [
+{
+  name: serpulo-mech-unit-a-1-wep
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: shoot
+  inaccuracy: 3
+  reload: 30
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  spread: 2
+  shots: 3
+  }
+  bullet: {
+  type: LightningBulletType
+  damage: 10
+  lightningLength: 20
+  lightningLengthRand: 2
+  lightningColor: BFECFFFF
+  lightningType: {
+    width: 5
+    height: 15
+    speed: 2
+    damage: 15
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    lifetime: 1
+    backColor: BFECFFFF
+    frontColor: BFECFFFF
+}
+}
+}
+]
+research: dagger
