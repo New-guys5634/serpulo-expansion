@@ -1,0 +1,46 @@
+name: spleech
+description: imagine a laser sniper at your face
+type: mech
+mechLegColor: 1f1f1f
+health: 155
+armor: 1
+hitSize: 9
+speed: 1.1
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+itemCapacity: 15
+outlineColor: 1f1f1f
+weapons: [
+ {
+name: serpulo-mech-unit-a-3-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 3
+  shootX: 6
+  maxRange: 185
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: bolt
+  inaccuracy: 3
+  reload: 40
+  targetInterval: 5
+  targetSwitchInterval: 10
+  cooldownTime: 5
+  bullet: {
+  type: PointLaserBulletType
+  color: f1f1f1
+  maxRange: 240
+  length: 150
+  width: 10
+  damage: 12
+  buildingDamageMultiplier: 0.000001
+}
+}
+]
+
+
+research: dagger
