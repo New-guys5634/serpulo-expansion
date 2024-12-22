@@ -26,10 +26,10 @@ name: serpulo-mech-unit-a-3-wep
   y: 0
   shootY: 0
   shootX: 0
-  controllable: false
-  autoTarget: true
   mirror: false
   rotate: false
+  controllable: false
+  autoTarget: true
   shootCone: 10
   shootSound: torch
   inaccuracy: 3
@@ -44,6 +44,7 @@ name: serpulo-mech-unit-a-3-wep
   bullet: {
   type: PointLaserBulletType
   color: f1f1f1
+  maxRange: 145
   length: 150
   width: 10
   damage: 3
