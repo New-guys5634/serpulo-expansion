@@ -21,7 +21,7 @@ name: serpulo-mech-unit-a-3-wep
   shootY: 0
   shootX: 0
   controllable: false
-  mirror: true
+  mirror: false
   rotate: false
   shootCone: 10
   shootSound: torch
