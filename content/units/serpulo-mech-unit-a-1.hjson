@@ -30,12 +30,13 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 10
-  shootSound: shoot
+  shootSound: spark
   inaccuracy: 3
   reload: 30
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
+  recoil: 0
   shoot: {
   type: ShootSpread
   spread: 2
