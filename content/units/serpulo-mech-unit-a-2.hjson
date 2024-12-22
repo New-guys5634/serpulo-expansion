@@ -73,6 +73,8 @@ weapons: [
    smokeEffect: shootBigSmoke
    speed: 1
    lifetime: 1
+   status: unmoving
+   statusDuration: 120
    }
   }
 ]
