@@ -1,0 +1,10 @@
+name: "serpulo-ex"
+description: 
+''' 
+expanding serpulo things mainly units
+'''
+author: "beee"
+minGameVersion: 145
+version: "1.0"
+displayName: "serpulo expansion"
+subtitle: "expanding mindustry"
