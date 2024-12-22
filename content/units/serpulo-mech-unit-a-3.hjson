@@ -21,6 +21,7 @@ name: serpulo-mech-unit-a-3-wep
   shootY: 0
   shootX: 0
   controllable: false
+  autoTarget: true
   mirror: false
   rotate: false
   shootCone: 10
