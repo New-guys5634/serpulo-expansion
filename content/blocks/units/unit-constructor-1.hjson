@@ -31,6 +31,15 @@ plans: [
     silicon/20
   ]
 }
+{
+    unit: serpulo-mech-unit-a-3
+    time: 1100
+    requirements: [
+    copper/45
+    silicon/35
+    graphite/75
+]
+}
 ]
 requirements: [
 silicon/85
