@@ -1,7 +1,7 @@
 name: cling bombarder
 description: imagen crawler strangling your units and exploding directly on your face
 type: mech
-mechLegColor: 1f1f1f
+mechLegColor: 565666FF
 health: 235
 armor: 1
 hitSize: 9
@@ -11,7 +11,7 @@ rotateSpeed: 7
 accel: 0.15
 mechSideSway: 0.25
 itemCapacity: 15
-outlineColor: 1f1f1f
+outlineColor: 565666FF
 weapons: [
  {
   name: ligma

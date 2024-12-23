@@ -1,7 +1,7 @@
 name: spleech
 description: imagine a laser sniper at your face
 type: legs
-mechLegColor: 1f1f1f
+mechLegColor: 565666FF
 health: 155
 armor: 1
 hitSize: 11
@@ -10,7 +10,7 @@ rotateSpeed: 7
 accel: 0.15
 mechSideSway: 0.25
 itemCapacity: 15
-outlineColor: 1f1f1f
+outlineColor: 565666FF
 legCount: 4
 legLength: 12
 legForwardScl: 0.4
