@@ -40,7 +40,6 @@ name: na
   shootX: 0
   mirror: false
   rotate: false
-  controllable: false
   autoTarget: true
   shootCone: 10
   shootSound: bolt
