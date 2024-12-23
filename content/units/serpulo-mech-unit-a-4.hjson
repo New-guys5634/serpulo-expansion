@@ -94,8 +94,8 @@ name: na
    collidesTiles: true
    }
   }
+ }
  ]
-}
 
 
 research: dagger
