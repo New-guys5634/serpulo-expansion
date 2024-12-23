@@ -1,0 +1,101 @@
+name: spleech
+description: fires an artillery type of an bullet and has an arc shield use this in the frontlines when attacking
+type: legs
+mechLegColor: 565666FF
+health: 215
+armor: 1
+hitSize: 11
+speed: 1.1
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+itemCapacity: 15
+outlineColor: 565666FF
+legCount: 4
+legLength: 12
+legForwardScl: 0.4
+legMoveSpace: 1
+hovering: true
+groundLayer: 72
+abilities: [
+{
+type: ShieldArcAbility
+cooldown: 800
+max: 100
+radius: 15
+angle: 60
+regen: 2
+width: 25
+whenShooting: true
+}
+]
+weapons: [
+ {
+name: na
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: false
+  controllable: false
+  autoTarget: true
+  shootCone: 10
+  shootSound: bolt
+  inaccuracy: 3
+  reload: 90
+  targetInterval: 5
+  targetSwitchInterval: 10
+  cooldownTime: 5
+  bullet: {
+   type: ArtilleryBulletType
+   lifetime: 30
+   speed: 7
+   recoil: 2
+   splashDamage: 50
+   splashDamageRadius: 25
+   height: 12
+   width: 8
+   shootEffect: shootBig2
+   smokeEffect: shootSmokeTitan
+   frontColor: FFFB84FF
+   backColor: FFFB84FF
+   trailColor: FFFB84FF
+   trailWidth: 2
+   trailLength: 5
+   trailInterp: slope
+   trailEffect: none
+   despawnEffect: {
+    type: multiEffect
+    effects: [
+     {
+     type: WrapEffect
+     effect: dynamicSpikes
+     color: 565666FF
+     rotation: 15
+     }
+    ]
+   }
+   hitEffect: {
+    type: multiEffect
+    effects: [
+     {
+     type: WrapEffect
+     effect: dynamicSpikes
+     color: 565666FF
+     rotation: 15
+     }
+    ]
+   }
+   despawnSound: dullExplosion
+   hitSound: dullExplosion
+   collidesTiles: true
+   }
+  }
+ ]
+}
+
+
+research: dagger
