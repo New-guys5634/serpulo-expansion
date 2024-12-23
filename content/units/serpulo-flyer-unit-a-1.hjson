@@ -15,7 +15,7 @@
     faceTarget: true
 weapons: [
   {
-    name: serpulo-flyer-unit-a-1
+    name: serpulo-flyer-unit-a-1-wep
     x: 5
     y: 0
     shootY: 5
