@@ -1,0 +1,28 @@
+name: air foundation 
+description: constructs air units
+type: UnitFactory
+category: units
+size: 3
+configurable: true
+consumes: {
+  power: 8
+}
+plans: [
+  {
+    unit: serpulo-flyer-unit-a-1
+    time: 1450
+    requirements: [
+    copper/30
+    silicon/40
+    lead/75
+]
+}
+]
+requirements: [
+graphite/65
+lead/120
+copper/145
+]
+research: {
+  parent: ground-factory
+}
