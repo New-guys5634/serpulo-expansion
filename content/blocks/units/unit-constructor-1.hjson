@@ -32,7 +32,7 @@ plans: [
   ]
 }
 {
-    unit: serpulo-mech-unit-a-3
+    unit: serpulo-mech-unit-a-4
     time: 1100
     requirements: [
     copper/45
