@@ -55,11 +55,6 @@ weapons: [
   lightningLength: 20
   lightningLengthRand: 2
   lightningColor: BFECFFFF
-   healPercent: 2
-   collidesTeam: true
-    collidesAir: true
-    collidesGround: true
-    collideTerrain: true
   lightningType: {
     width: 5
     height: 15
@@ -70,6 +65,11 @@ weapons: [
     lifetime: 1
     backColor: BFECFFFF
     frontColor: BFECFFFF
+   healPercent: 2
+   collidesTeam: true
+    collidesAir: true
+    collidesGround: true
+    collideTerrain: true
 }
 }
 }
