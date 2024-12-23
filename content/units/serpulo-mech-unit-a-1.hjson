@@ -56,12 +56,16 @@ weapons: [
   lightningLengthRand: 4
   lightningColor: BFECFFFF
   recoil: 1
+    healPercent: 2
   lightningType: {
+   width: 2
+   height: 2
+   speed: 4
+   lifetime: 15
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     backColor: BFECFFFF
     frontColor: BFECFFFF
-    healPercent: 2
 }
 }
 }
