@@ -4,6 +4,9 @@ type: UnitFactory
 category: units
 size: 3
 configurable: true
+consumes: {
+  power: 8
+}
 plans: [
   {
     unit: serpulo-mech-unit-a-1
