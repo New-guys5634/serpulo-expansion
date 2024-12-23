@@ -39,7 +39,7 @@ weapons: [
   shootCone: 10
   shootSound: spark
   inaccuracy: 3
-  reload: 30
+  reload: 45
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -55,6 +55,8 @@ weapons: [
   lightningLength: 20
   lightningLengthRand: 2
   lightningColor: BFECFFFF
+   healPercent: 2
+  recoil: 1
   lightningType: {
     width: 5
     height: 15
@@ -65,11 +67,8 @@ weapons: [
     lifetime: 1
     backColor: BFECFFFF
     frontColor: BFECFFFF
-   healPercent: 2
-   collidesTeam: true
     collidesAir: true
     collidesGround: true
-    collideTerrain: true
 }
 }
 }
