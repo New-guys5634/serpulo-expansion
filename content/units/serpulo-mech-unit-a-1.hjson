@@ -52,23 +52,16 @@ weapons: [
   bullet: {
   type: LightningBulletType
   damage: 10
-  lightningLength: 20
-  lightningLengthRand: 2
+  lightningLength: 15
+  lightningLengthRand: 4
   lightningColor: BFECFFFF
-   healPercent: 2
   recoil: 1
   lightningType: {
-    width: 5
-    height: 15
-    speed: 2
-    damage: 15
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
-    lifetime: 1
     backColor: BFECFFFF
     frontColor: BFECFFFF
-    collidesAir: true
-    collidesGround: true
+    healPercent: 2
 }
 }
 }
