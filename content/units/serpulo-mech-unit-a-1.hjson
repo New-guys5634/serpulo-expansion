@@ -56,8 +56,17 @@ weapons: [
   lightningLengthRand: 4
   lightningColor: BFECFFFF
   recoil: 1
-   collidesTeam: true
-    healPercent: 2
+lightningType: {
+    collidesTeam: true
+    hittable: true
+    hitSize: 15
+    height: 0
+    width: 0
+    healAmount: 3.5
+    lifetime: 1
+    hitEffect: hitLancer
+    despawnEffect: none
+}
 }
 }
 ]
