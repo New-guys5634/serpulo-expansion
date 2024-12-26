@@ -2,6 +2,7 @@ description: fires a mid power laser that powful against groups
 name: laser tower
 type: PowerTurret
 rotateSpeed: 1
+reload: 1
 targetGround: true
 targetAir: true
 range: 215
