@@ -31,7 +31,7 @@ requirements: [
 silicon/75
 lead/250
 graphite/145
-plastium/25
+plastanium/25
 ]
 category: turret
 parent: lancer
@@ -40,5 +40,5 @@ researchCost: [
 silicon/750
 lead/2500
 graphite/1450
-plastium/250
+plastanium/250
 ]
