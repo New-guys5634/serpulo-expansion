@@ -22,7 +22,7 @@ coolant: {
 }
 shootType: {
   type: PointLaserBulletType
-  color: 000000FF
+  color: AF2A2AFF
   length: 150
   width: 25
   damage: 20
