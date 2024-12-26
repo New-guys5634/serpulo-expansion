@@ -1,0 +1,44 @@
+description: fires a mid power laser that powful against groups
+name: laser tower
+type: PowerTurret
+rotateSpeed: 1
+targetGround: true
+targetAir: true
+range: 215
+recoil: 1
+shootSound: torch
+size: 2
+health: 230
+xRand: 1
+consumes: {
+power: 2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.2
+}
+}
+shootType: {
+  type: PointLaserBulletType
+  color: 000000FF
+  length: 150
+  width: 12
+  damage: 20
+  buildingDamageMultiplier: 0.2
+}
+requirements: [
+silicon/75
+lead/250
+graphite/145
+plastium/25
+]
+category: turret
+parent: lancer
+research: lancer
+researchCost: [
+silicon/750
+lead/2500
+graphite/1450
+plastium/250
+]
