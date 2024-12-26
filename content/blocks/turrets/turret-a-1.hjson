@@ -1,11 +1,11 @@
 description: fires a mid power laser that powful against groups
 name: laser tower
-type: PowerTurret
+type: ContinuousTurret
 rotateSpeed: 1
 reload: 1
 targetGround: true
 targetAir: true
-range: 215
+range: 275
 recoil: 1
 shootSound: torch
 size: 2
@@ -24,7 +24,7 @@ shootType: {
   type: PointLaserBulletType
   color: 000000FF
   length: 150
-  width: 12
+  width: 25
   damage: 20
   buildingDamageMultiplier: 0.2
 }
