@@ -1,0 +1,39 @@
+     name: assault drone
+     description: assaults buildings with a powerful lasers
+    type: flying
+    lowAltitude: true
+    speed: 5
+    accel: 0.08
+    drag: 0.05
+    flying: true
+    health: 145
+    hitSize: 8
+    armor: 4
+    itemCapacity: 15
+    engineOffset: 5
+    faceTarget: true
+weapons: [
+  {
+    name: serpulo-flyer-unit-a-2-gun
+    x: 4
+    y: 0
+    shootY: 4
+    mirror: true
+    rotate: true
+    layerOffset: -1
+    reload: 18
+    recoil: 2
+    inaccuracy: 6
+    shootSound: torch
+    bullet: {
+  type: PointLaserBulletType
+  color: AF2A2AFF
+  maxRange: 145
+  length: 150
+  width: 10
+  damage: 6
+  buildingDamageMultiplier: 0.8
+}
+}
+]
+research: flare

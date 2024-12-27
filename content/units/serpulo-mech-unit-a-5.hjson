@@ -1,0 +1,83 @@
+name: soaked
+description: fires two long ranged cannons at its opponents
+type: legs
+mechLegColor: 565666FF
+health: 200
+armor: 1
+hitSize: 11
+speed: 1.1
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+itemCapacity: 12
+outlineColor: 565666FF
+weapons: [
+ {
+name: serpulo-mech-unit-a-5-gun
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: true
+  rotate: false
+  autoTarget: true
+  shootCone: 10
+  shootSound: malignShoot
+  inaccuracy: 3
+  reload: 25
+  targetInterval: 5
+  targetSwitchInterval: 10
+  cooldownTime: 5
+  shootEffect: sparkShoot
+  bullet: {
+   type: ArtilleryBulletType
+   lifetime: 45
+   speed: 7
+   recoil: 2
+   damage: 25
+   splashDamage: 15
+   splashDamageRadius: 15
+   height: 8
+   width: 6
+   shootEffect: shootBig2
+   smokeEffect: shootSmokeTitan
+   frontColor: FFFB84FF
+   backColor: FFFB84FF
+   trailColor: FFFB84FF
+   trailWidth: 2
+   trailLength: 8
+   trailInterp: slope
+   trailEffect: disperseTrail
+   despawnEffect: {
+    type: multiEffect
+    effects: [
+     {
+     type: WrapEffect
+     effect: dynamicSpikes
+     color: 565666FF
+     rotation: 15
+     }
+    ]
+   }
+   hitEffect: {
+    type: multiEffect
+    effects: [
+     {
+     type: WrapEffect
+     effect: dynamicSpikes
+     color: 565666FF
+     rotation: 15
+     }
+    ]
+   }
+   despawnSound: dullExplosion
+   hitSound: dullExplosion
+   collidesTiles: true
+   }
+  }
+ ]
+
+
+research: dagger
