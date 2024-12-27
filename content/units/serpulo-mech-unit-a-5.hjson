@@ -1,6 +1,6 @@
 name: soaked
 description: fires two long ranged cannons at its opponents
-type: legs
+type: mech 
 mechLegColor: 565666FF
 health: 200
 armor: 1
@@ -19,7 +19,7 @@ name: serpulo-mech-unit-a-5-gun
   x: 0
   y: 0
   shootY: 0
-  shootX: 0
+  shootX: 4
   mirror: true
   rotate: false
   autoTarget: true
@@ -35,7 +35,6 @@ name: serpulo-mech-unit-a-5-gun
    type: ArtilleryBulletType
    lifetime: 45
    speed: 7
-   recoil: 2
    damage: 25
    splashDamage: 15
    splashDamageRadius: 15
