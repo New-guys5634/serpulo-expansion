@@ -17,6 +17,14 @@ plans: [
     lead/75
 ]
 }
+{
+    unit: serpulo-flyer-unit-a-2
+    time: 1000
+    requirements: [
+    metaglass/30
+    silicon/20
+]
+}
 ]
 requirements: [
 graphite/65

@@ -43,6 +43,15 @@ plans: [
     graphite/75
 ]
 }
+{
+    unit: serpulo-mech-unit-a-5
+    time: 975
+    requirements: [
+    copper/25
+    silicon/55
+    metaglass/45
+]
+}
 ]
 requirements: [
 silicon/85
