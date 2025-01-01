@@ -1,21 +1,17 @@
 type: ConsumeGenerator
-name: thermal reactor 
-description: burns slag for an amount of power and little oil 
-size: 1
+name: wind reactor 
+description: generates power from the rotation of serpulo and due to toxic air it also generates a small amount of water 
+size: 2
 category: power
 research: {
-  parent: oil-power
+  parent: slag-power
 }
 requirements: [
-silicon/215
-copper/115
-plastanium/85
+silicon/125
+copper/100
 ]
-consumes: {
-liquid: slag/0.3
-}
-outputLiquid: oil/0.1
-powerProduction: 5
+outputLiquid: water/0.1
+powerProduction: 2
 itemDuration: 125
 generateEffect: generatespark
 ambientSound: smelter
