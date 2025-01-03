@@ -1,0 +1,82 @@
+description: a Titanium turret that launches graphite copper lead or titanium
+name: bust
+type: ItemTurret
+reload: 45
+rotateSpeed: 2
+targetGround: true
+targetAir: true
+range: 155
+recoil: 2
+shootSound: bang
+size: 2
+health: 850
+AmmoPerShot: 5
+shootShake: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -1
+    }
+  ]
+}
+ammoTypes: {
+    copper: {
+        damage: 35
+        speed: 6
+        height: 8
+        width: 8
+        lifetime: 30
+    }
+    lead: {
+        damage: 25
+        speed: 6
+        reloadMultiplier: 0.9
+        height: 8
+        width: 8
+        lifetime: 30
+       splashDamage: 8
+       splashDamageRadius: 9
+     }
+     graphite: {
+       damage: 75
+        speed: 7
+        reloadMultiplier: 0.7
+        height: 8
+        width: 8
+        lifetime: 30
+      }
+     titanium: {
+       damage: 100
+        speed: 7
+        reloadMultiplier: 0.7
+        height: 8
+        width: 8
+        lifetime: 30
+       splashDamage: 10
+       splashDamageRadius: 10
+      }
+requirements: [
+titanium/75
+lead/100
+graphite/25
+]
+category: turret
+parent: slavo
+research: slavo
+researchCost: [
+titanium/750
+lead/1000
+graphite/250
+]
