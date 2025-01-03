@@ -67,6 +67,7 @@ ammoTypes: {
        splashDamage: 10
        splashDamageRadius: 10
       }
+}
 requirements: [
 titanium/75
 lead/100
