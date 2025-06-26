@@ -3,7 +3,6 @@ name: Rocketeer
 description: Fires homing rocket that deal nice damage.
 omniMovement: false
 faceTarget: false
-outlineColor: 8E665CFF
 speed: 0.9
 rotateSpeed: 2.5
 groundLayer: 60
