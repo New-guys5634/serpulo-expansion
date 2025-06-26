@@ -1,6 +1,7 @@
 type: tank
 name: Rocketeer 
 description: Fires homing rocket that deal nice damage.
+template: ErekirUnitType
 omniMovement: false
 faceTarget: false
 speed: 0.9
