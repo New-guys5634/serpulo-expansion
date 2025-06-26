@@ -30,9 +30,9 @@ weapons: [
   mirror: false
   rotate: true
   shootCone: 20
-  shootSound: 
-  inaccuracy: 30
-  reload: 70
+  shootSound: missileLarge
+  inaccuracy: 60
+  reload: 130
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35   
@@ -47,13 +47,14 @@ weapons: [
    damage: 20
         homingPower: 0.4
         homingRange: 100
+        homingDelay: 2
    shootEffect: sparkShoot
    trailInterval: 2
    smokeEffect: shootBigSmoke
    splashDamage: 5
    splashDamageRadius: 30
    speed: 4
-   lifetime: 40
+   lifetime: 60
     trailColor: 60615BFF
     trailLength: 0.22
     trailWidth: 1
