@@ -1,0 +1,29 @@
+name: Armoured tank constructor
+description: Constructs tanks.
+type: UnitFactory
+category: units
+size: 3
+configurable: true
+consumes: {
+  power: 8
+}
+plans: [
+  {
+    unit: erekir-mech-unit-a-1
+    time: 1300
+    requirements: [
+    tungsten/20
+    silicon/50
+    beryllium/50
+    ]
+}
+]
+requirements: [
+silicon/85
+graphite/120
+tungsten/100
+beryllium/200
+]
+research: {
+  parent: tank-fabricator
+}
