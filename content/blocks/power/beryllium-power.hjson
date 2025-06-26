@@ -1,0 +1,73 @@
+type: ConsumeGenerator
+name: Beryllium generator
+description: Uses sand, beryllium and water to create power. 
+size: 2
+category: power
+research: {
+  parent: vent-condenser
+}
+requirements: [
+silicon/15
+beryllium/25
+graphite/50
+]
+consumes: {
+liquid: water/0.2
+  items: {
+    items: [
+sand/2
+beryllium/1
+    ]
+  }
+}
+powerProduction: 6
+itemDuration: 245 
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.3
+researchCostMultiplier: 1
+generateEffectRange: 1
+effectChance: 0.02
+generateEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 6
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 25
+      lifetime: 750
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+   {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 0.5
+    }
+    {
+      type: DrawDefault
+     }
+   ]
+}
