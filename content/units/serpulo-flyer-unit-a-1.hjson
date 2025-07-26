@@ -1,6 +1,6 @@
-     name: armored drone
-     description: flare has been armored with serious buffs and defences
-     details: what soon will happen to it
+     name: Armored Drone
+     description: Flare had been armored with serious buffs and defences.
+     details: Since there was no stealing technology and your science teams had to develop a really good flying drone so they used the flare for the base to save time.
     type: flying
     lowAltitude: true
     speed: 4

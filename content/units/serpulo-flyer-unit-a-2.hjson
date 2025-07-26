@@ -1,5 +1,5 @@
-     name: assault drone
-     description: assaults buildings with a powerful lasers
+     name: Assault Drone
+     description: Assaults buildings with a powerful lasers.
     type: flying
     lowAltitude: true
     speed: 5

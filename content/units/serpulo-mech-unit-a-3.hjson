@@ -1,5 +1,5 @@
-name: spleech
-description: imagine a laser sniper at your face
+name: Spleech
+description: Fires a simple laser.
 type: legs
 mechLegColor: 565666FF
 health: 155

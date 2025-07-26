@@ -1,5 +1,5 @@
-name: range
-description: fires an artillery type of an bullet and has an arc shield use this in the frontlines when attacking
+name: Range
+description: Fires an artillery type of an bullet and has an arc shield,use this in the frontlines when attacking.
 type: legs
 mechLegColor: 565666FF
 health: 215

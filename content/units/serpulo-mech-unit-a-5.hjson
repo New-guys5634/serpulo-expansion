@@ -1,5 +1,5 @@
-name: soaked
-description: fires two long ranged cannons at its opponents
+name: Soaked
+description: Fires two long ranged cannons at its opponents 
 type: mech 
 mechLegColor: 565666FF
 health: 200

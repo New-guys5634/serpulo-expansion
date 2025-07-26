@@ -1,5 +1,5 @@
-name: lighting 
-description: lighting fires lighting type bullets 
+name: Lighting 
+description: Lighting fires lighting type bullets.
 type: mech
 mechLegColor: 1f1f1f
 health: 315

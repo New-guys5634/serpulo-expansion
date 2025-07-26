@@ -1,12 +1,12 @@
-name: cling bombarder
-description: imagen crawler strangling your units and exploding directly on your face
+name: Cling Bombarder
+description: A more advanced crawler rather blowing up it stuns the enemies then explodes.
 type: mech
 mechLegColor: 565666FF
 health: 235
 armor: 1
 hitSize: 9
 controller: SuicideAI
-speed: 1.1
+speed: 1.4
 rotateSpeed: 7
 accel: 0.15
 mechSideSway: 0.25
@@ -27,21 +27,14 @@ weapons: [
     hitEffect: pulverize
     lifetime: 5
     speed: 1
-    splashDamageRadius: 65
+    splashDamageRadius: 45
     instantDisappear: true
-    splashDamage: 85
+    splashDamage: 120
     killShooter: true
     hittable: false
     collidesAir: false
-    fragBullets: 4
     fragCone: 360
     hitSound: explosion
-    fragBullet: {
-     type: LaserBulletType
-     length: 0
-     colors: [fag020 faga02 ffffff]
-     damage: 5
-   }
  }
  }
 { 
@@ -71,8 +64,8 @@ weapons: [
    shootEffect: sparkShoot
    trailInterval: 2
    smokeEffect: shootBigSmoke
-   speed: 1
-   lifetime: 1
+   speed: 3
+   lifetime: 2
    status: unmoving
    statusDuration: 120
    }
